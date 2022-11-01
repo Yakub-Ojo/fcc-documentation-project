@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap');
+
+
+body {
+  line-height: 1.4;
+  width: 100%;
+  min-width: 290px;
+  color: #4d4e53;
+  background-color: #ffffff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+#Introduction{
+  line-height: 1.50;
+  color: #4d4e53;
+  margin: 15px;
+  font-size: 0.96em;
+}
+header {
+  text-align: left;
+  margin: 0px;
+  color: black;
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.8em;
+  letter-spacing: 3px;
+}
+
+
+
+#navbar {
+  position: fixed;
+  height: 100%;
+  min-width: 300px;
+  width: 300px;
+  
+  top: 0px;
+  left: 0px;
+
+  color: black;
+  background-color: white;
+  padding: 75px 0px;
+  z-index: 3;
+}
+
+
+#navbar header {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+}
+
+
+#navbar li {
+  list-style: none;
+  padding: 5px 0px;
+  position: relative;
+  width: 100%;
+}
+
+
+#navbar a {
+  color: gray;
+  text-decoration: none;
+}
+
+
+#navbar a:hover{ 
+  color: black;
+  text-decoration: underline;
+}
+
+
+#main-doc {
+  position: absolute;
+  
+  
+  margin-left: 310px;
+  
+  padding: 20px;
+}
+
+
+
+Section {
+  background: white;
+}
